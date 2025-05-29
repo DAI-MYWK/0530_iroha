@@ -1,0 +1,139 @@
+# ビビッド＆ポップ版：ホームページ設計書（全７セクション）
+global_style:
+  concept: "NO LIMIT COLOR!"
+  keywords: ["陽気", "遊び心", "エネルギー", "ストリート感"]
+  background: "#FFE600" # 鮮やかなイエロー
+  paint_splash:
+    colors: ["#FF2D2D", "#0070FF"]
+    style: "ラフな飛び散り・大きめドリップ"
+  hero_characters:
+    look: "Tシャツ＋デニム"
+    age_range: "20〜40代男性"
+    pose: "笑顔でペイントブラシを掲げる"
+  typography:
+    heading: "'Kdam Thmor Pro', sans-serif" # 角張ったパーク風
+    body: "'Noto Sans JP', sans-serif"
+  cta_style:
+    shape: "ラウンド長方形"
+    bg_color: "#FF2D2D"
+    text_color: "#FFFFFF"
+    hover_effect: "軽いバウンズ＋影"
+  motion:
+    - "ロード時に塗料がスプラッシュしてロゴを形成"
+    - "スクロールでブラシがスライドして見出しをペイント"
+    - "ボタンホバーでペイントが滴るアニメ"
+  imagery_guidelines:
+    photo_tone: "高コントラスト・彩度強め"
+    filter: "少しグレインとハイライトブースト"
+    icon_style: "手描き風ライン＋塗りつぶしワンポイント"
+
+sections:
+  - id: 1
+    name: "hero"
+    bg: "full-yellow + 赤青スプラッシュ"
+    elements:
+      heading: "NO&nbsp;LIMIT&nbsp;COLOR!"
+      subcopy: "住まいにインパクトと安心を。塗装はもっと自由で楽しい。"
+      lead: |
+        完全自社施工の〈いろは〉が、燕の街に
+        ビビッドな彩りと長持ちするクオリティをもたらします。
+      cta: "無料でカラー提案を受ける"
+
+  - id: 2
+    name: "about"
+    bg: "斜めストライプ・透過青スプラッシュ"
+    heading: "PLAYFUL × PROFESSIONAL"
+    bullets:
+      - "100%自社施工でブレない仕上げ"
+      - "LINEで毎日レポート、工程が丸見え"
+      - "燕ローカルだから即行動・即レス"
+      - "高品質塗料×遊び心のデザイン提案"
+    quote: |
+      > **「塗装はクリエイティブだ。」**  
+      > — 代表・高橋賢行
+
+  - id: 3
+    name: "services"
+    bg: "白＋カラフルブラシストローク横断"
+    heading: "サービスメニュー"
+    cards:
+      - title: "BASIC PAINT"
+        subtitle: "外壁 & 屋根"
+        color_tag: "#FF2D2D"
+        copy: "耐候＋美観の王道３回塗り。フッ素樹脂で10年キープ。"
+      - title: "ROOM BOOST"
+        subtitle: "内装 & 家具"
+        color_tag: "#0070FF"
+        copy: "匂い少なめ塗料で、部屋も気分もクリーンUP。"
+      - title: "POP REPAIR"
+        subtitle: "ちょこっと補修"
+        color_tag: "#00C07B"
+        copy: "雨樋１本からOK。気軽に頼める“街のペイント屋”。"
+      - title: "COLOR DESIGN"
+        subtitle: "配色コンサル"
+        color_tag: "#FF9800"
+        copy: "カラーシミュレーションで未来のわが家を先取り！"
+
+  - id: 4
+    name: "reasons"
+    bg: "黄色ベースに巨大ペイントブラシ画像"
+    heading: "WHY&nbsp;US?"
+    list:
+      - "代表＝職人。言ったこと全部守る。"
+      - "ライブ写真報告で“見える工事”"
+      - "最強コスパ：中間マージン0"
+      - "部分塗装＆急ぎ案件ウェルカム"
+      - "ハイサイド評価★4.9／5（自社調べ）"
+
+  - id: 5
+    name: "works"
+    bg: "暗めネイビー＋ネオンフレーム"
+    heading: "ギャラリー"
+    slider:
+      style: "横スクロール＋塗料スプラッシュ遷移"
+      items:
+        - city: "燕市"
+          type: "外壁 × 屋根"
+          before_after_img: "燕市_case01.jpg"
+          tag_color: "#FF2D2D"
+        - city: "三条市"
+          type: "破風板補修"
+          before_after_img: "三条市_case02.jpg"
+          tag_color: "#0070FF"
+    voice_widget:
+      satisfaction: "96.4%"
+      copy: "『報告がマメで安心！仕上がりもバッチリ』 — K様"
+
+  - id: 6
+    name: "flow"
+    bg: "白＋カラードットパターン"
+    heading: "FLOW"
+    timeline:
+      - step: 1
+        title: "HELLO！"
+        desc: "電話・フォームでお気軽相談"
+      - step: 2
+        title: "CHECK！"
+        desc: "現地調査&カラー診断（無料）"
+      - step: 3
+        title: "PLAN！"
+        desc: "見積りと配色プラン提示"
+      - step: 4
+        title: "GO！"
+        desc: "施工スタート／毎日レポート"
+      - step: 5
+        title: "YEAH！"
+        desc: "完了検査→アフターサポート"
+
+  - id: 7
+    name: "contact"
+    bg: "黄色＋赤青ペイントフレーム"
+    heading: "LET’S&nbsp;TALK!"
+    copy: |
+      塗るか迷ったら、とりあえず聞いてみよう。  
+      燕・三条・長岡エリアならスグ伺います！
+    contact_options:
+      phone: "080-5076-0489（8:00〜19:00）"
+      email: "iroha_coat@icloud.com"
+      form_button: "24H フォームで相談"
+    footer_note: "© いろは - NO LIMIT COLOR! 2025"
